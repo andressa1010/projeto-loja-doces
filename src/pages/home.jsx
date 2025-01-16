@@ -53,8 +53,8 @@ const Home = () => {
           <div key={produto.id} className="produto">
             <h2>{produto.name}</h2>
             <img
-              src={`http://localhost:3000${produto.image}`}
-              alt={produto.name}
+               src={`https://api-doces-qgua.onrender.com${produto.image}`}
+               alt={produto.name}
             ></img>
             <p>Preço: R${produto.price}</p>
             <p>{produto.description}</p>
