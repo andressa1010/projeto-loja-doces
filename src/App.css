@@ -149,13 +149,13 @@ button:hover{
   height: 60px;
 }
 
-.sobre-projeto{
+.sobre-projeto, .sobre-projeto-linkdin{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.sobre-projeto p{
+.sobre-projeto p, .sobre-projeto-linkdin p{
   font-size: 20px;
   max-width: 600px;
 }
@@ -172,7 +172,7 @@ button:hover{
 
 @media(max-width: 460px){
   nav ul li{
-     font-size: 20px;
+     font-size: 24px;
   }
   #produtos-container , .produtos-container-bolos{
     display: flex;
@@ -223,5 +223,18 @@ button:hover{
     max-width: 100%;
     height: auto;
   }
-  
+  .sobre-projeto, .sobre-projeto-linkdin{
+    font-size: 16px;
+  }
+  .andressa-sobre{
+    width: 200px;
+  }
+  .linkdin-sobre{
+     width: 200px;
+  }
+  .sobre-projeto-linkdin{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

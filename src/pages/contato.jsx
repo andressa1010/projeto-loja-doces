@@ -11,7 +11,7 @@ const Contato = () => {
         <Menu/>
         <Logo/>
 
-        <div className="sobre-projeto">
+        <div className="sobre-projeto-linkdin">
         <p>
           Gostou do meu trabalho? 
            Estou sempre em busca de novas
