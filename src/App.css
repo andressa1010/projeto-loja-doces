@@ -295,3 +295,26 @@ button:hover{
     font-size: 20px;
   }
 }
+
+@media(max-width: 394px){
+  .produtos-container-bolos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .produtos-bolos{
+    width: 150px;
+  }
+
+}
+
+@media(max-width: 360px){
+  .produtos-container-bolos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .produtos-bolos{
+    width: 140px;
+  }
+}
